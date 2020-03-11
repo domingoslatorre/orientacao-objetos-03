@@ -1,9 +1,9 @@
 package exemplos;
 
 public class Conta {
-    public Integer numero;
-    public Double saldo;
-    public Double limite;
+    private Integer numero;
+    private Double saldo;
+    private Double limite;
 
     public Conta(Integer numero) {
         this(numero, 0.0, 0.0);
